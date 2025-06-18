@@ -53,22 +53,6 @@ npm run dev
 ```
 The application will be available at `http://localhost:5173`
 
-## Key Components
-
-### Dashboard
-- Template overview with statistics
-- Search and filter functionality
-- Quick actions for viewing and editing
-
-### Template Editor
-- Form-based editing interface
-- Real-time content preview
-- Channel-specific content management
-- Character count for SMS templates
-
-### User Management
-- Role-based access simulation
-- User profile display
 
 ## Features Implemented
 
@@ -78,7 +62,6 @@ The application will be available at `http://localhost:5173`
 ✅ Real-time preview  
 ✅ Search and filtering  
 ✅ Responsive design  
-✅ User role simulation  
 ✅ Modern React patterns  
 
 
