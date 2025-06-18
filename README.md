@@ -31,28 +31,27 @@ This project is a frontend implementation of a notification management system th
 - **Lucide React** - Beautiful icon library
 - **Inter Font** - Modern, readable typography
 
-## Quick Start
+## Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-# Create the project
-npm create vite@latest credito-notification-system --template react
+git clone https://github.com/yafitAvazov/credito-demo.git
+cd credito-demo
+```
 
-# Navigate to project directory
-cd credito-notification-system
+### 2. Install Dependencies
 
-# Install dependencies
+```bash
 npm install
+```
 
-# Install additional dependencies
-npm install lucide-react
+### 3. Start Development Server
 
-# Install Tailwind CSS
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-
-# Start development server
+```bash
 npm run dev
 ```
+The application will be available at `http://localhost:5173`
 
 ## Key Components
 
@@ -95,12 +94,5 @@ npm run dev
 - Multi-language support
 
 
-## Development Commands
 
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-```
 
-The application will be available at `http://localhost:5173`
