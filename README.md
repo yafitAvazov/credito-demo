@@ -1,6 +1,10 @@
 # Credito Notification Management System
 
-A modern React-based mockup for managing automated customer notifications, built according to the Product Requirements Document.
+A modern React-based notification management system for automated customer communications, built according to the Product Requirements Document for Credito's mortgage application process.
+
+## Assignment Overview
+
+This project is a frontend implementation of a notification management system that allows Credito staff to independently manage automated customer notifications without developer dependency. The system handles notifications for status changes, document requests, and payment due scenarios across email and SMS channels.
 
 ## Features
 
@@ -12,6 +16,12 @@ A modern React-based mockup for managing automated customer notifications, built
 - **Search & Filter**: Find templates quickly with search and category filters
 - **User Role Management**: Role-based access control simulation
 - **Modern UI**: Clean, responsive design using Tailwind CSS
+
+## Images
+<img src="src/assets/images/dashboard.png" width="800">
+<img src="src/assets/images/template_preview.png" width="800">
+<img src="src/assets/images/edit_template.png" width="800">
+<img src="src/assets/images/create_new_template.png" width="800">
 
 ## Technology Stack
 
@@ -44,21 +54,6 @@ npx tailwindcss init -p
 npm run dev
 ```
 
-## Project Structure
-
-```
-credito-notification-system/
-├── src/
-│   ├── App.jsx          # Main application component
-│   ├── App.css          # Tailwind CSS imports and custom styles
-│   └── main.jsx         # React entry point
-├── index.html           # HTML template
-├── package.json         # Dependencies and scripts
-├── vite.config.js       # Vite configuration
-├── tailwind.config.js   # Tailwind CSS configuration
-└── postcss.config.js    # PostCSS configuration
-```
-
 ## Key Components
 
 ### Dashboard
@@ -87,15 +82,6 @@ credito-notification-system/
 ✅ User role simulation  
 ✅ Modern React patterns  
 
-## Best Practices Used
-
-- **Functional Components**: Modern React with hooks
-- **State Management**: Local state with useState
-- **Component Structure**: Modular, reusable components
-- **Accessibility**: Focus states and semantic HTML
-- **Performance**: Efficient re-rendering patterns
-- **Modern CSS**: Tailwind utility classes
-- **Type Safety**: PropTypes-ready structure
 
 ## Future Enhancements
 
@@ -107,6 +93,7 @@ credito-notification-system/
 - Advanced analytics
 - A/B testing framework
 - Multi-language support
+
 
 ## Development Commands
 
